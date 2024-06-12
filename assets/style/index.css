@@ -1,5 +1,6 @@
 :root {
-    --bg: #292929;
+    --bg: #292929;  
+    --bg-50: #29292980;  
     --light-bg: #3D3D3D;
     --black-12: #0000001F; 
     --black-14: #00000024;
@@ -86,4 +87,45 @@ section {
     text-align: left;
     color: var(--white);
 }
-
+.email .top {
+    margin-bottom: 16px;
+}
+.email .top h3 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: var(--white);
+}
+.email span {
+    display: block;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: var(--white-40);
+}
+.email li {
+    padding-top: 6px;
+    border-bottom: 1px solid var(--bg-50);
+    display: flex;
+    justify-content: left;
+    gap: 6px;
+}
+.email .description {
+    margin-top: 6px;
+}
+.email .bottom h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: var(--white);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 300px;
+}
