@@ -90,7 +90,7 @@ section {
 .email .top {
     margin-bottom: 16px;
 }
-.email .top h3 {
+.email .top h2 {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
@@ -129,3 +129,45 @@ section {
     text-overflow: ellipsis;
     max-width: 300px;
 }
+.feeling .top h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: var(--white);
+}
+.feeling .top {
+    margin-bottom: 16px;
+}
+.feeling .top span {
+    display: block;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: var(--white-40);
+}
+.feeling ul {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+.feeling ul li {
+    width: 111px;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: var(--bg);
+    text-align: center;
+}
+.feeling ul li span {
+    display: block;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: var(--white);
+}
+
+
