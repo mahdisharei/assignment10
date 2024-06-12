@@ -1,0 +1,50 @@
+:root {
+    --bg: #292929;
+    --light-bg: #3D3D3D;
+    --black-12: #0000001F; 
+    --black-14: #00000024;
+    --white: #FFFFFF;
+    --white-40: #FFFFFF66;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 33px 0;
+    background-color: var(--bg);
+}
+.container {
+    width: 398px;
+    margin: 0 auto;
+}
+section {
+    border-radius: 16px;
+    padding: 16px;
+    background-color: var(--light-bg);
+    box-shadow: 0px 0px 2px var(--black-12), 0px 4px 8px var(--black-14);
+}
+.wheather .top {
+    margin-bottom: 42px;
+}
+.wheather {
+    display: flex;
+    justify-content: space-between;
+}
+.wheather h2 {
+    font-family: Inter;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 36px;
+    text-align: left;
+    color: var(--white);
+}
+.wheather span {
+    display: block;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: var(--white-40);
+}
+
