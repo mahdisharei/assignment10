@@ -205,4 +205,11 @@ section {
     text-align: right;
     color: var(--white-40);
 }
+@media screen and (max-width: 1279px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+}
 
