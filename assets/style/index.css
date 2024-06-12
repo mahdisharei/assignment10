@@ -5,6 +5,8 @@
     --black-14: #00000024;
     --white: #FFFFFF;
     --white-40: #FFFFFF66;
+    --yellow: #FFC453;
+    --green: #29E489;
 }
 * {
     box-sizing: border-box;
@@ -46,5 +48,42 @@ section {
     line-height: 16px;
     text-align: left;
     color: var(--white-40);
+}
+.calender .top {
+    margin-bottom: 16px;
+}
+.calender h2 {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 32px;
+    text-align: left;
+    color: var(--white);
+}
+.calender span {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: left;
+    color: var(--white-40);
+}
+.calender li {
+    padding: 4px 0 4px 12px;
+    margin-bottom: 6px;
+}
+.calender li:first-of-type {
+    border-left: 2px solid var(--yellow);
+}
+.calender li:nth-of-type(2) {
+    border-left: 2px solid var(--green);
+}
+.calender h3 {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: left;
+    color: var(--white);
 }
 
